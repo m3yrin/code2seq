@@ -12,11 +12,10 @@ A PyTorch re-implementation code for "[code2seq: Generating Sequences from Struc
 * Jupyter-notebook
 * scikit-learn
 * nltk
-* hyperdash (optional)
 
 ## TODO
 * Beam search is not implemented.
 
 ## Memo
-* F1 Score is 10.9 on Java-small dataset after 5 epoch training.   
-  still unstable. Performance is not well tested due to no enough computer resources... 
+* F1 Score is 10.9 on Java-small dataset after training 5 epochs.   
+  Still unstable. Performance is not well tested due to no enough computer resources... 
