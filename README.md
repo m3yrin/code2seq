@@ -1,5 +1,5 @@
 # code2seq
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m3yrin/code2seq/blob/master/code2seq_v3.ipynb)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m3yrin/code2seq/blob/master/code2seq.ipynb)  
 
 A PyTorch re-implementation code for "[code2seq: Generating Sequences from Structured Representations of Code](https://arxiv.org/abs/1808.01400)"
 
