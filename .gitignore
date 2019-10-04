@@ -3,7 +3,10 @@ logs/
 data/
 runs/
 slack/
+src/__pycache__
 
 # Jupyter Notebook
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
+src/.ipynb_checkpoints
+
