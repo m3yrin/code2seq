@@ -1,5 +1,4 @@
 # code2seq
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m3yrin/code2seq/blob/master/code2seq.ipynb)  
 
 A PyTorch re-implementation code for "[code2seq: Generating Sequences from Structured Representations of Code](https://arxiv.org/abs/1808.01400)"
 
@@ -7,15 +6,13 @@ A PyTorch re-implementation code for "[code2seq: Generating Sequences from Struc
 * Official Github : https://github.com/tech-srl/code2seq
 
 ## Requirements
-* Python 3.6 +
-* Pytorch 1.0 +
-* Jupyter-notebook
-* scikit-learn
-* nltk
+see requirements.txt
 
-## TODO
-* Beam search is not implemented.
+## Run
+1. use notebooks/preparation.ipynb to download dataset and etc.
+2. use notebooks/code2seq.ipynb
 
 ## Memo
-* F1 Score is 10.9 on Java-small dataset after training 5 epochs.   
-  Still unstable. Performance is not well tested due to no enough computer resources... 
+* Beam search is not implemented.
+* GCP AI Platform Notebooks is used to train model.
+* AI Platform Notebooks requires google_compute_engine api so please install this before installing other packages if you use AI Platform Notebooks.
