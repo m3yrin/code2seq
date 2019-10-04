@@ -136,22 +136,20 @@ class EarlyStopping(object):
 
     def __call__(self, score, model, epoch):
 
-        #score = -val_loss
-
         if self.best_score is None:
             self.best_score = score
             self.save_checkpoint(score, model)
             
-        elif (score < self.best_score) and (epoch > self.warm_up) :
+        elif (score <= self.best_score) and (epoch > self.warm_up) :
             self.counter += 1
             print(f'EarlyStopping counter: {self.counter} out of {self.patience}')
             if self.counter >= self.patience:
                 self.early_stop = True
         else:
-            if (epoch < self.warm_up):
+            if (epoch <= self.warm_up):
                 print('Warming up until epoch', self.warm_up)
+            
             else:
-                
                 if self.verbose:
                     print(f'Score improved. ({self.best_score:.6f} --> {score:.6f}).')
                 

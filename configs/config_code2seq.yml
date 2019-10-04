@@ -16,13 +16,13 @@ training:
   decay_ratio: 0.95
   save_name: /model.pth
   warm_up: 1
-  patience: 1
+  patience: 2
   
   
 model:
   token_size: 128
   hidden_size: 64
-  num_layers: 2
+  num_layers: 1
   bidirectional: True
   rnn_dropout: 0.5
   embeddings_dropout: 0.3
