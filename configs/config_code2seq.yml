@@ -1,8 +1,9 @@
 data:
   home: ../data
-  train: /java-small/java-small.train_small.c2s
-  valid: /java-small/java-small.val.c2s
-  test: /java-small/java-small.test.c2s
+  dict: /java-small/java-small.dict.c2s
+  train: /java-small/train
+  valid: /java-small/val
+  test: /java-small/test
 
 
 training:
