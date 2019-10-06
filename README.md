@@ -6,11 +6,14 @@ A PyTorch re-implementation code for "[code2seq: Generating Sequences from Struc
 * Official Github : https://github.com/tech-srl/code2seq
 
 ## Requirements
-see requirements.txt
+Please see requirements.txt
 
-## Run
-1. use notebooks/preparation.ipynb to download dataset and etc.
-2. use notebooks/code2seq.ipynb
+## Usage
+* notebooks/preparation.ipynb 
+for downloading dataset, making some directories etc.
+
+* notebooks/code2seq.ipynb
+for training and evaluating the model.
 
 ## Memo
 * Beam search is not implemented.
