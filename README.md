@@ -1,4 +1,4 @@
-# code2seq
+# code2seq [WIP]
 
 A PyTorch re-implementation code for "[code2seq: Generating Sequences from Structured Representations of Code](https://arxiv.org/abs/1808.01400)"
 
